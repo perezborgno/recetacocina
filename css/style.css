@@ -1,0 +1,55 @@
+body {
+	background: linear-gradient(to right, #182848, #4b6cb7);
+}
+
+h1, p, a {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	display: block;
+	text-align: center;
+	line-height:0.8;
+	color: white;
+}
+
+/*.contenido {
+	max-width: 1200px;
+	margin: 5rem auto 0 auto;
+	text-align: center;
+}*/
+
+h1 {
+	font-size: 4rem;
+}
+
+a {
+	font-size: 1.4rem;
+}
+
+p {
+	font-size: 2.2rem;
+}
+
+/*.grilla {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	gap: 80px;
+}*/
+
+.texto {
+	font: oblique bold 60% cursive;
+	color: black;
+	font-size: 2rem;
+}
+
+.grilla {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.columna {
+	width: 30%;
+	background-color: #a5d8ff;
+	padding: 20px; 
+}
+
